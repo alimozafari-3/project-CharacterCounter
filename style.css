@@ -1,0 +1,36 @@
+* {
+    border: none;
+    outline: none;
+    direction: rtl;
+}
+
+body {
+    height: 100vh;
+    font-family: cursive;
+    margin: 0;
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.field {
+    position: relative;
+}
+
+.field-counter {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.6rem;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: #565656;
+    border-radius: 0.2rem;
+}
