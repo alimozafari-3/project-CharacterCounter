@@ -34,3 +34,23 @@ body {
     background-color: #565656;
     border-radius: 0.2rem;
 }
+
+.field-input {
+    font-family: cursive;
+    font-size: 1.4rem;
+    padding: 0.8rem 0 0.8rem 2rem;
+    min-width: 16rem;
+    background: transparent;
+    color: #fff;
+    border-bottom: 0.15rem solid #fac40083;
+    transition: border-color 0.4s;
+}
+
+.field-input:focus {
+    border-color: #fac400;
+}
+
+.field-input::placeholder {
+    color: #686868;
+    user-select: none;
+}
